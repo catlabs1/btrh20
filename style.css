@@ -1,0 +1,211 @@
+@font-face {
+    font-family: "SuisseIntl";
+    src: url("fonts/SuisseIntl-Regular.otf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "SuisseIntl";
+    src: url("fonts/SuisseIntl-Book.otf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "SuisseIntl";
+    src: url("fonts/SuisseIntl-Medium.otf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "SuisseIntl";
+    src: url("fonts/SuisseIntl-SemiBold.otf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "SuisseIntl";
+    src: url("fonts/SuisseIntl-Bold.otf");
+    font-weight: 800;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SuisseIntl";
+}
+
+h1,
+h3 {
+    font-weight: 700;
+}
+
+h1 {
+    margin: 4.375em auto 1em auto;
+    text-align: center;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #1f1f1f;
+}
+
+h3 {
+    margin-bottom: 2em;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #1f1f1f;
+}
+
+a {
+    text-decoration: none;
+    margin-top: 3em;
+}
+
+.container {
+    width: calc(100% - 32px);
+    margin: 0 auto;
+    padding-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-letter {
+    width: 13.375em;
+}
+
+.open-btn {
+    padding: 1.125em 5em;
+    border: 1.5px solid #294fd9;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #1f1f1f;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.auth-img {
+    width: 1.5em;
+}
+
+.padlock-auth {
+    width: 6.25em;
+}
+
+.who {
+    background: #1f1f1f;
+    width: 100%;
+}
+
+.who-full-height {
+    height: 100vh;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 23px;
+    text-align: center;
+    color: #f4f4f4;
+    margin: 1rem auto 8.375rem auto;
+}
+
+.h1-text {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 42px;
+    text-align: center;
+    color: #f4f4f4;
+    margin-bottom: 4rem;
+}
+
+.who-img {
+    width: 6.25em;
+}
+
+.btn-wow {
+    padding: 1.125em 3em;
+    text-decoration: none;
+    background: #2d2d2d;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+.wowo {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.happy-text {
+    margin: 4.5rem auto 2rem auto;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 83px;
+    color: #f4f4f4;
+}
+
+.human-image {
+    width: 7.5rem;
+}
+
+.happy-regular-text {
+    margin: 2rem auto 0px auto;
+    margin-bottom: 30vh;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+.popper_image {
+    width: 4em;
+    margin-bottom: 1rem;
+}
+
+.pozdrav {
+    margin-top: 1.125rem;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+.arrow-down {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #f4f4f4;
+}
+
+.purple,
+.blue {
+    overflow: hidden;
+    height: 100%;
+    border-radius: 100px;
+}
+
+.purple {
+    position: absolute;
+    top: 0px;
+    left: -64px;
+}
+
+.blue {
+    position: absolute;
+    top: 0px;
+    left: 140px;
+}
+
+.slides > video {
+    width: 100%;
+}
